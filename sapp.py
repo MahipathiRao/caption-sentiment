@@ -65,7 +65,7 @@ def analyze_pdf_sentiment(file):
 
 
 # Streamlit app
-st.title("PDF Sentiment Analysis")
+st.title("SentimentScopes")
 
 # File upload
 uploaded_file = st.file_uploader("Upload a PDF file for sentiment analysis", type="pdf")
